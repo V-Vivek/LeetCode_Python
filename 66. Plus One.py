@@ -11,6 +11,3 @@ class Solution:
         for n in result:
             oneplus.append(int(n))
         return oneplus
-
-o = Solution()
-print(o.plusOne([1,2,3,9]))
