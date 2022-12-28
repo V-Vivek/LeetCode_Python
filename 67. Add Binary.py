@@ -1,4 +1,4 @@
-import math
 class Solution:
-    def mySqrt(self, x: int) -> int:
-        return int(math.sqrt(x))
+    def addBinary(self, a: str, b: str) -> str:
+        binary = int(a, 2) + int(b, 2)
+        return bin(binary)[2:]
